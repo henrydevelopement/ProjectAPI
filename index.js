@@ -5,10 +5,10 @@ const mysql = require('mysql');
 const PORT = process.env.PORT||5000;
 
 const connection = mysql.createConnection({
-   host: 'localhost',
-   user:'root',
-   password:'',
-   database:'egtraffledata'
+   //host: 'localhost',
+   //user:'root',
+   //password:'',
+   //database:'egtraffledata'
    host: 'db4free.net',
    user:'roottoordatatest',
    password:'01020929Henry!',
