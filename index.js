@@ -9,10 +9,10 @@ const connection = mysql.createConnection({
    user:'root',
    password:'',
    database:'egtraffledata'
-   host: 'db4free.net',
-   user:'roottoordatatest',
-   password:'01020929Henry!',
-  database:'egtraffledata'
+   //host: 'db4free.net',
+  // user:'roottoordatatest',
+  // password:'01020929Henry!',
+  //database:'egtraffledata'
 });
 
 connection.connect();
